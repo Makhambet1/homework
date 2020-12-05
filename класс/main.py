@@ -6,14 +6,15 @@ class stydent():
         self.group = group
 
     def info(self):
-        return 'Имя:' + (self.name) + '\nФамиля:' + (self.surname) + '\nВозраст:' + (self.age) + '\nГруппа:' + (
+        return 'Имя:' + (self.name) + '\nФамиля:' + (self.surname) + '\nРелигия:' + (self.age) + '\nГруппа:' + (
             self.group) + '\n >>>>>>>>>>>'
 
 
-stydent1 = stydent("Махамбет", "Маскар", "+18+", "АиУп-19р/о")
-stydent2 = stydent("Азамат", "Амантайулы ", "18", "АиУп-19р/о")
-stydent3 = stydent("Нурболат", "Жабасов ", "18", "АиУп-19р/о")
-stydent4 = stydent("Султанбек", "Женисбеков ", "19", "АиУп-19р/о")
+stydent1 = stydent("Махамбет", "Маскар", "мусульманин", "АиУп-19р/о")
+stydent2 = stydent("Азамат", "Амантайулы ", "мусульманин", "АиУп-19р/о")
+stydent3 = stydent("Нурболат", "Жабасов ", "мусульманин", "АиУп-19р/о")
+stydent4 = stydent("Султанбек", "Женисбеков ", "мусульманин", "АиУп-19р/о")
+stydent4 = stydent("Владимир", "Мышкин ", "атеист", "АиУп-19р/о")
 
 print(stydent1.info())
 print(stydent2.info())
