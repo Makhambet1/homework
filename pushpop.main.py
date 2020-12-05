@@ -2,8 +2,8 @@ asd = []
 zxc = []
 old = 0
 citizen = 0
-asik = input('Введите длину очереди: ')
-for a in range(int(asik)):
+makha = input('Введите длину очереди: ')
+for a in range(int(makha)):
     name = input('Выберите: 1.ветеран 2.обычный : ')
     if (int(name) == 2):
         citizen = citizen + 1
@@ -12,7 +12,7 @@ for a in range(int(asik)):
         old = old + 1
 
 
-for a in range(int(asik)):
+for a in range(int(makha)):
     if old == 0:
         for a in range(citizen):
             print('обычный гражданин ')
